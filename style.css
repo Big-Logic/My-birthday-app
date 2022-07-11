@@ -314,3 +314,8 @@ input:focus {
     width: 80%;
   }
 }
+@media (max-width: 22em) {
+  .tooltip {
+    left: -3rem;
+  }
+}
