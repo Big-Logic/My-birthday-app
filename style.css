@@ -257,6 +257,10 @@ input:focus {
   transform: rotate(45deg);
   border: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #393e46;
 }
 
 .participians_close--btn:hover {
