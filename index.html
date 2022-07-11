@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alfred's Birthday</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="timmer_container">
+            <div class="birthday_wish">
+              <h1 class="birthday_text">
+                pre Happy Birthday <br />
+                Big Logic
+              </h1>
+            </div>
+            <div class="timmer">
+              <div class="tooltip">
+                <p>Loading</p>
+              </div>
+              <h2 class="days">
+                <span class="days_num num">0</span
+                ><span class="days_text texts">Days</span
+                ><span class="unseen texts">tes</span>
+              </h2>
+              <h2 class="hours">
+                <span class="hours_num num">0</span
+                ><span class="hours_text texts">Hours</span>
+              </h2>
+              <h2 class="minutes">
+                <span class="minutes_num num">0</span
+                ><span class="minutes_text texts">Minutes</span>
+              </h2>
+              <h2 class="seconds">
+                <span class="seconds_num num">0</span
+                ><span class="seconds_text texts">Seconds</span>
+              </h2>
+            </div>
+
+            <div class="message_container">
+              <div class="loading_spinner">
+                <p>Sending Message</p>
+                <img src="loader2.svg" alt="" />
+              </div>
+              <h2>Send a Message</h2>
+              <form action="#" method="post" id="message_form">
+                <ul>
+                  <li>
+                    <label for="person_name"></label>
+                    <input
+                      type="text"
+                      name="person_name"
+                      id="person_name"
+                      placeholder="Enter Your Name"
+                    />
+                  </li>
+                  <li>
+                    <label for="message"></label>
+                    <input
+                      type="text"
+                      name="message"
+                      id="message"
+                      placeholder="Message"
+                    />
+                  </li>
+
+                  <li>
+                    <button type="submit" class="submit_btn">Send</button>
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+          <div class="photo_container">
+            <img src="alfred-pic.jpg" alt="Alfred Ngwayah" class="alfred_pic" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="error_message">
+      <p>Please populate all inputs correctly!!</p>
+    </div>
+
+    <div class="participians_container">
+      <button class="participians_close--btn">+</button>
+      <div class="participians"></div>
+    </div>
+
+    <button class="participians_view--btn">People who send</button>
+  </body>
+</html>
